@@ -12,10 +12,11 @@ class TimesView extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-            image: AssetImage(
-              AppAssets.timesBackground,
-            ),
-            fit: BoxFit.cover),
+          image: AssetImage(
+            AppAssets.timesBackground,
+          ),
+          fit: BoxFit.contain,
+        ),
       ),
     );
   }
