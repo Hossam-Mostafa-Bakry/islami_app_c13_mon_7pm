@@ -43,6 +43,11 @@ class _LayoutViewState extends State<LayoutView> {
         },
         backgroundColor: AppColors.primaryColor,
         type: BottomNavigationBarType.fixed,
+        selectedLabelStyle: TextStyle(
+          fontFamily: "Janna",
+          fontSize: 12,
+          fontWeight: FontWeight.bold,
+        ),
         selectedIconTheme: const IconThemeData(
           color: AppColors.white,
         ),

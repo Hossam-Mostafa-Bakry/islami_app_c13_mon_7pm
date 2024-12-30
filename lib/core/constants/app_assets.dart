@@ -9,4 +9,8 @@ abstract class AppAssets {
   static const String sebhaBackground = "assets/images/sebha_background.png";
   static const String radioBackground = "assets/images/radio_background.png";
   static const String timesBackground = "assets/images/times_background.png";
+  static const String islamiHeaderImg = "assets/images/islami_header_logo.png";
+  static const String recentImg = "assets/images/recent_icn.png";
+  static const String suraNumberIcn = "assets/icons/number_icn.png";
+  static const String suraDetailsImg = "assets/images/soura_details_screen.png";
 }
